@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.contain_contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  margin-left: 150px;
+}
+h2{
+  margin-left: 200px;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar sidebarGo">
+    <Nav>
+        <ul>
+            <li><a href="C:\Users\Tarpon Dey\OneDrive\Desktop\portfolio\index.html">Home</a></li>
+            <li><a href="C:\Users\Tarpon Dey\OneDrive\Desktop\portfolio\intro.html">About Me</a></li>
+            <li><a href="C:\Users\Tarpon Dey\OneDrive\Desktop\portfolio\skill.html">Technical Skills</a></li>
+            <li><a href="C:\Users\Tarpon Dey\OneDrive\Desktop\portfolio\project.html">Personal Projects</a></li>
+            <li><a href="C:\Users\Tarpon Dey\OneDrive\Desktop\portfolio\contact.html">My Contacts</a></li>
+        </ul>
+    </Nav>
+    </div>
+    <div class="main">
+        <div class="hambruger">
+            <img class="ham" src="ham.png" alt="" width="23px">
+            <img class="cross" src="cross1.jpg" alt="" width="23px">
+        </div>
+        
+<h2>Please Contact me for any queries.</h2>
+  
+<div class="contain_contact" >
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Email ID</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your Email ID..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Phone Number</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your Phone Number..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Feedback</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="social-wrapper">
+      <ul>
+        <li>
+          <a href="#" target="_blank">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="LinkedIn_icon_circle.svg.png" alt="Linkedin Logo" class="linkedin-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <img src="Octocat.png" alt="GitHub Logo" class="googleplus-icon"></a>
+        </li>
+      </ul>
+    </div>
+  
+  </footer>
+</div>
+
+      </div>
+    
+  
+<script src="script.js">
+
+</script>
+</div>
+</body>
+</html>
+
+
